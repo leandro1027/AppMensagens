@@ -12,13 +12,17 @@
    <LinearLayout
        android:id="@+id/linear_layout"
        android:layout_width="match_parent"
-       android:layout_height="wrap_content">
+       android:layout_height="wrap_content"
+       android:background="@color/green"
+       android:padding="4dp"
+       >
 
        <ImageView
            android:layout_width="wrap_content"
            android:layout_height="40sp"
            android:layout_weight="1"
-           android:src="@drawable/ic_sun" />
+           android:src="@drawable/ic_sun"
+           app:tint="@color/white" />
 
        <ImageView
            android:layout_width="wrap_content"
@@ -33,5 +37,33 @@
            android:src="@drawable/ic_happy"/>
 
    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/nome_usuario"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/msgPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/mensagem_da_tela"
+        android:textSize="24sp"/>
+    
+    <View
+        android:layout_width="128dp"
+        android:layout_height="5dp"
+        android:layout_below="@+id/msgPrincipal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:background="@color/green"/>
+
+    
 
 </RelativeLayout>
