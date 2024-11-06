@@ -18,6 +18,7 @@
        >
 
        <ImageView
+           android:id="@+id/clickSol"
            android:layout_width="wrap_content"
            android:layout_height="40sp"
            android:layout_weight="1"
@@ -25,12 +26,14 @@
            app:tint="@color/white" />
 
        <ImageView
+           android:id="@+id/clickNuvem"
            android:layout_width="wrap_content"
            android:layout_height="40sp"
            android:layout_weight="1"
            android:src="@drawable/ic_rain"/>
 
        <ImageView
+           android:id="@+id/clickSolNuvem"
            android:layout_width="wrap_content"
            android:layout_height="40sp"
            android:layout_weight="1"

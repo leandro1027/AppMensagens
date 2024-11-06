@@ -10,6 +10,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.appmensagens.R
 import com.example.appmensagens.databinding.ActivityUserBinding
+import com.example.appmensagens.infra.Constants
+import com.example.appmensagens.infra.Security
 
 class UserActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -37,7 +39,8 @@ class UserActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun validarNome() {
         val nome = binding.editNome.text.toString()
-        if (nome.isNotEmpty()) {
+        if (nome != "") {
+            Security(this).searchString(Constants.KEY.USER_NAME, nome)
             startActivity(Intent(this, MainActivity::class.java))
             finish()
         } else {
