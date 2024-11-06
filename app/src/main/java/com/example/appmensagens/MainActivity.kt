@@ -46,6 +46,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         if (view.id == R.id.botaomsg){
             selectFrase()
             //Toast.makeText(this,"Clique no botão para aparecer essa mensagem", Toast.LENGTH_SHORT).show()
+        }else if(view.id in listOf(R.id.clickSol, R.id.clickNuvem, R.id.clickSolNuvem)){
+            selectClick(view.id)
+
         }
     }
 

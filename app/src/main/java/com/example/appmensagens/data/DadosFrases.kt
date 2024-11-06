@@ -13,7 +13,11 @@ class DadosFrases {
 
     val listaDeFrases = listOf(
         Frases(
-            "Se você estiver comigo não me importo se estivermos na chuva, no sol muito quente, granizo ou neve.",
+            "1 Se você estiver comigo não me importo se estivermos na chuva, no sol muito quente, granizo ou neve.",
+            sol
+        ),
+        Frases(
+            "2 Se você estiver comigo não me importo se estivermos na chuva, no sol muito quente, granizo ou neve.",
             sol
         ),
         Frases(
