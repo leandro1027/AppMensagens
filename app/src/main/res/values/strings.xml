@@ -3,4 +3,7 @@
     <string name="nome_usuario">Nome do usuário</string>
     <string name="mensagem_da_tela">Mensagem da tela SOL</string>
     <string name="botao_mensagem">Mensagem</string>
+    <string name="digite_o_seu_nome">"Digite o seu nome: "</string>
+    <string name="validar_nome">\n</string>
+    <string name="vamos_começar" />
 </resources>

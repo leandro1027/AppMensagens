@@ -65,6 +65,7 @@
         android:background="@color/green"/>
 
     <Button
+        android:id="@+id/botaomsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
